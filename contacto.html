@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Álvaro E - Contacto</title>
+        <link rel="stylesheet" href="./styles/global.css">
+        <link rel="stylesheet" href="./styles/contacto.css">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <header>
+            <img class="portada" src="images/portada.jpg">
+        </header>
+
+        <nav>
+            <a href="./index.html"><label class="nav__item link">HOME</label></a>
+            <a href="./contacto.html"><label class="nav__item link">CONTACTO</label></a>
+            <label class="nav__item"> | </label>
+            <a><img class="nav__item link" src="./images/facebook.png"></a>
+            <a><img class="nav__item link" src="./images/twitter.png"></a>
+            <a><img class="nav__item link" src="./images/instagram.png"></a>
+        </nav>
+
+        <div id="container">
+            <div id="form-wrapper">
+                <form>
+                    <label>Nombre y apellido *</label><br>
+                    <input type="text" class="form__text-input" required><br>
+                    <label>Correo electrónico *</label><br>
+                    <input type="email" class="form__text-input" required><br>
+                    <label>Teléfono de contacto *</label><br>
+                    <input type="number" class="form__text-input" required><br>
+                    <label>Mensaje *</label><br>
+                    <textarea rows="5"></textarea><br>
+                    <label><input type="checkbox" required>He leído y acepto la <a class="form-link">Politica de privacidad</a></label><br>
+                    <button class="submit-btn" type="submit" value="Submit">Enviar</button>
+                </form> 
+            </div>
+        </div>
+
+        <footer>
+            @alesbe | Copyright 2022
+        </footer>
+    </body>
+</html>
